@@ -1,0 +1,78 @@
+@import "reset";
+@import "common";
+
+// my css
+
+// header part
+.header {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  padding: 12px 0;
+  background: #ffffff;
+  .logo {
+    width: 160px;
+  }
+  .nav li {
+    display: inline-block;
+    margin: 12px;
+    a {
+      color: #232222;
+      font-size: 18px;
+    }
+  }
+}
+.nevigation {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin: 0 12px;
+}
+.btn {
+  padding: 8px 14px;
+  background: #612069;
+  border-radius: 5px;
+  a {
+    font-size: 16px;
+    color: #ffffff;
+  }
+}
+
+// hero section
+.hero {
+  padding-top: 200px;
+  padding-bottom: 90px;
+  position: relative;
+  background: #e9e5e1;
+  .hero_heading {
+    color: #1c1c1c;
+    h2 {
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 1;
+    }
+    h3 {
+      font-size: 24px;
+    }
+  }
+}
+.btn-1 {
+  background: $primary;
+  a {
+    color: #ffffff;
+  }
+}
+.btn-2 a {
+  color: $primary;
+}
+.btn-2 {
+  margin-left: 6px;
+}
+.btn-1:hover {
+  background: #2f0235;
+}
+.hero_para a {
+  color: #1e64a3;
+  text-decoration: underline;
+}
