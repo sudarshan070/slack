@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   line-height: 1.5;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
 .container {
@@ -40,5 +40,31 @@ body {
 
 .button {
   margin: 18px 0;
+}
+
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.padding {
+  padding: 3rem 0;
+}
+
+.center_heading {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.center_heading h3 {
+  color: #1c1c1c;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.center_heading p {
+  font-size: 20px;
+  color: #454545;
 }
 /*# sourceMappingURL=common.css.map */
