@@ -67,4 +67,14 @@ hr {
   font-size: 20px;
   color: #454545;
 }
+
+.color_a a {
+  font-size: 18px;
+  color: #1e64a3;
+  font-weight: 400;
+}
+
+.color_a a .fas {
+  padding-left: 8px;
+}
 /*# sourceMappingURL=common.css.map */

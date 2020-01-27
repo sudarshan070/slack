@@ -215,6 +215,16 @@ hr {
   color: #454545;
 }
 
+.color_a a {
+  font-size: 18px;
+  color: #1e64a3;
+  font-weight: 400;
+}
+
+.color_a a .fas {
+  padding-left: 8px;
+}
+
 .header {
   position: fixed;
   z-index: 999;
@@ -356,16 +366,6 @@ hr {
   letter-spacing: 0.4px;
   font-weight: 400;
   padding: 12px 0;
-}
-
-.channel a {
-  font-size: 18px;
-  color: #1e64a3;
-  font-weight: 400;
-}
-
-.channel a .fas {
-  padding-left: 8px;
 }
 
 .patner {

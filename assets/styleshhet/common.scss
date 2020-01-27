@@ -5,6 +5,7 @@ body {
     sans-serif;
 }
 $primary: #612069;
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -49,5 +50,15 @@ hr {
   p {
     font-size: 20px;
     color: #454545;
+  }
+}
+.color_a {
+  a {
+    font-size: 18px;
+    color: #1e64a3;
+    font-weight: 400;
+    .fas {
+      padding-left: 8px;
+    }
   }
 }
